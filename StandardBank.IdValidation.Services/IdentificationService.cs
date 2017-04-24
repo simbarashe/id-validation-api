@@ -72,7 +72,7 @@ namespace StandardBank.IdValidation.Services
             const int index = 10, length = 1;
             var parsedCitizenship = id.Substring(index, length);
             var citizenshipValue = Convert.ToInt32(parsedCitizenship);
-            return citizenshipValue == citizenValidator ? "SA" : "Permanet Resident";
+            return citizenshipValue == citizenValidator ? "SA" : "Permanent Resident";
         }
     }
 }
